@@ -40,24 +40,26 @@ export const About = ({ data, kpis }: AboutProps) => {
           </Card>
 
           {/* KPI Highlights */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {kpis.map((kpi, index) => (
-              <Card
-                key={index}
-                className="p-6 text-center gradient-card border-border/50 backdrop-blur-sm hover:scale-105 transition-smooth group"
-              >
-                <div className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
-                  {kpi.value}
-                </div>
-                <div className="text-lg font-semibold text-foreground mb-1">
-                  {kpi.label}
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  {kpi.description}
-                </div>
-              </Card>
-            ))}
-          </div>
+          {kpis.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {kpis.map((kpi, index) => (
+                <Card
+                  key={index}
+                  className="p-6 text-center gradient-card border-border/50 backdrop-blur-sm hover:scale-105 transition-smooth group"
+                >
+                  <div className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
+                    {kpi.value}
+                  </div>
+                  <div className="text-lg font-semibold text-foreground mb-1">
+                    {kpi.label}
+                  </div>
+                  <div className="text-sm text-muted-foreground">
+                    {kpi.description}
+                  </div>
+                </Card>
+              ))}
+            </div>
+          )}
 
           {/* Contact Info */}
           <div className="flex flex-wrap justify-center gap-6 text-muted-foreground">

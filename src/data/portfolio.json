@@ -7,33 +7,17 @@
     "phone": "010-2243-7167",
     "location": "경기 평택시 서정북로",
     "profileImage": "/placeholder.svg",
-    "bio": "AI 서비스 구조 설계부터 데이터 전처리, 프롬프트 엔지니어링까지 전 과정을 직접 경험하며 자연어와 데이터베이스 사이의 간극을 메워 왔습니다. 문제 정의-구조화-실험-실행의 사이클로 PoC를 완성하고 현장에 적용 가능한 로드맵을 제시합니다.",
+    "bio": "SBERT 기반 AI 패션 컨시어지와 무신사 컨시어지 고도화 등 의미 중심의 AI 서비스를 기획하며 문제를 구조화합니다.\nKAMIS·식약처 데이터를 엮은 가격 하락 품목 레시피 추천처럼 데이터 파이프라인을 직접 설계하고 실험으로 검증합니다.\n카페와 리테일 운영 9년 경험을 바탕으로 사용자 경험과 비즈니스 지표를 동시에 바라보는 기획을 지향합니다.",
     "social": {
       "portfolio": "https://www.notion.so/163edc0c22cf4a90b4ecdca2f916ee82",
       "github": "https://github.com/YONU-LEEHYUNWOO"
     }
   },
-  "kpis": [
-    {
-      "value": "Top-K",
-      "label": "의미 기반 검색 정량 검증",
-      "description": "Hit@K, nDCG 지표로 RAG 파이프라인 성능 평가"
-    },
-    {
-      "value": "3s",
-      "label": "응답 속도",
-      "description": "Gemini 기반 파이프라인 전환으로 평균 3초 내 응답 확보"
-    },
-    {
-      "value": "96.8%",
-      "label": "데이터 보존율",
-      "description": "가격 하락 품목 파이프라인 전처리 및 보정 전략 수립"
-    }
-  ],
+  "kpis": [],
   "experience": [
     {
       "company": "패스트캠퍼스 AI 기획/개발 부트캠프 18기",
-      "position": "AI 서비스 기획자",
+      "position": "AI 서비스 기획/개발",
       "period": "2025.09 - 재직중",
       "responsibilities": [
         "AI 서비스 구조 설계와 기획 산출물 작성",
@@ -121,26 +105,25 @@
   },
   "projects": [
     {
-      "id": "project-ai-fashion",
-      "title": "AI 패션 컨시어지",
-      "description": "SBERT 기반 의미 검색과 Gemini 응답 생성을 결합한 패션 추천 RAG 파이프라인",
-      "longDescription": "기존 키워드 검색의 한계를 정의하고 SBERT 벡터 검색 + Gemini Flash 조합으로 의미 기반 추천 구조를 설계했습니다. 619건의 Amazon 패션 리뷰를 정제해 벡터 DB를 구축하고, 한국어 질의를 DeepL로 번역해 Top-K 검색 정확도를 높였습니다. 로컬 LLM과 API 모델을 비교해 속도·비용·안정성을 검증하고 응답 속도를 3초 내로 단축했습니다.",
+      "id": "project-musinsa-roadmap",
+      "title": "무신사 패션 컨시어지 고도화 기획",
+      "description": "사용자 문제 정의와 AI 적용 전략을 기반으로 한 단계별 로드맵 수립",
+      "longDescription": "무신사 사용자 여정을 분석해 이미지 검색·추천·가상 피팅 기능을 통합하는 방향을 제시했습니다. 경쟁 사례 조사와 사용자 시나리오를 바탕으로 MVP에서 3D 피팅 통합 단계까지 이어지는 로드맵을 기획하고, 기술 한계와 비즈니스 목표를 균형 있게 반영했습니다.",
       "image": "/placeholder.svg",
       "tags": [
-        "RAG",
+        "서비스기획",
         "패션",
-        "추천"
+        "로드맵"
       ],
       "techStack": [
-        "SBERT",
-        "Gemini Flash",
-        "DeepL",
-        "Streamlit"
+        "Notion",
+        "FigJam",
+        "Midjourney"
       ],
-      "myRole": "서비스 구조 설계, 데이터 정제, 의미 기반 검색 기획, 성능 지표 설계 및 PoC 리포트 제작",
-      "results": "Hit@K, nDCG 정량 지표로 의미 검색 유효성 검증, 평균 응답 3초 이내 확보",
+      "myRole": "사용자 문제 정의, 경쟁 분석, AI 적용 전략 수립, 고도화 로드맵 작성",
+      "results": "기능 중심 대신 사용자 경험 중심의 AI 서비스 시나리오 정립",
       "links": {
-        "report": "https://www.notion.so/163edc0c22cf4a90b4ecdca2f916ee82"
+        "demo": "https://thin-pamphlet-4ce.notion.site/29c0490b168680189f85c92be07907a2?pvs=74"
       }
     },
     {
@@ -161,26 +144,33 @@
         "식약처 레시피 API"
       ],
       "myRole": "데이터 파이프라인 구축, 전처리 로직 설계, 가격 점수 알고리즘 개발, UI 프로토타이핑",
-      "results": "API 데이터 품질 확보와 응답 시간 0.1초 이내 구현으로 실시간 추천 경험 제공"
+      "results": "API 데이터 품질 확보와 응답 시간 0.1초 이내 구현으로 실시간 추천 경험 제공",
+      "links": {
+        "demo": "https://thin-pamphlet-4ce.notion.site/2ae0490b1686801e85a4c061d9903a7f?pvs=74"
+      }
     },
     {
-      "id": "project-musinsa-roadmap",
-      "title": "무신사 패션 컨시어지 고도화 기획",
-      "description": "사용자 문제 정의와 AI 적용 전략을 기반으로 한 단계별 로드맵 수립",
-      "longDescription": "무신사 사용자 여정을 분석해 이미지 검색·추천·가상 피팅 기능을 통합하는 방향을 제시했습니다. 경쟁 사례 조사와 사용자 시나리오를 바탕으로 MVP에서 3D 피팅 통합 단계까지 이어지는 로드맵을 기획하고, 기술 한계와 비즈니스 목표를 균형 있게 반영했습니다.",
+      "id": "project-ai-fashion",
+      "title": "AI 패션 컨시어지",
+      "description": "SBERT 기반 의미 검색과 Gemini 응답 생성을 결합한 패션 추천 RAG 파이프라인",
+      "longDescription": "기존 키워드 검색의 한계를 정의하고 SBERT 벡터 검색 + Gemini Flash 조합으로 의미 기반 추천 구조를 설계했습니다. 619건의 Amazon 패션 리뷰를 정제해 벡터 DB를 구축하고, 한국어 질의를 DeepL로 번역해 Top-K 검색 정확도를 높였습니다. 로컬 LLM과 API 모델을 비교해 속도·비용·안정성을 검증하고 응답 속도를 3초 내로 단축했습니다.",
       "image": "/placeholder.svg",
       "tags": [
-        "서비스기획",
+        "RAG",
         "패션",
-        "로드맵"
+        "추천"
       ],
       "techStack": [
-        "Notion",
-        "FigJam",
-        "Midjourney"
+        "SBERT",
+        "Gemini Flash",
+        "DeepL",
+        "Streamlit"
       ],
-      "myRole": "사용자 문제 정의, 경쟁 분석, AI 적용 전략 수립, 고도화 로드맵 작성",
-      "results": "기능 중심 대신 사용자 경험 중심의 AI 서비스 시나리오 정립"
+      "myRole": "서비스 구조 설계, 데이터 정제, 의미 기반 검색 기획, 성능 지표 설계 및 PoC 리포트 제작",
+      "results": "Hit@K, nDCG 정량 지표로 의미 검색 유효성 검증, 평균 응답 3초 이내 확보",
+      "links": {
+        "demo": "https://thin-pamphlet-4ce.notion.site/AI-29e0490b168680489c10ce15e270479d?pvs=74"
+      }
     }
   ],
   "awards": [],
