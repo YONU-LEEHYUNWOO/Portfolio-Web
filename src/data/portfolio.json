@@ -1,188 +1,215 @@
 {
   "personal": {
-    "name": "홍길동",
-    "title": "서비스 기획자 & 기술 혁신가",
-    "catchphrase": "데이터로 문제를 해결하고, 경험으로 가치를 창출합니다.",
-    "email": "your.email@example.com",
-    "phone": "+82 10-XXXX-XXXX",
-    "location": "경기도, 대한민국",
+    "name": "이현우",
+    "title": "AI 서비스 기획자",
+    "catchphrase": "의미를 구조화하고 실험으로 검증하는 기획자",
+    "email": "hwlee71677@gmail.com",
+    "phone": "010-2243-7167",
+    "location": "경기 평택시 서정북로",
     "profileImage": "/placeholder.svg",
-    "bio": "카페 운영부터 이커머스 플랫폼 구축까지, 저의 여정은 사람과 기술의 간극을 메우는 일이었습니다. 훌륭한 서비스 기획은 인간의 경험과 기술적 가능성을 모두 이해하는 데서 나온다고 믿습니다. 마주한 모든 도전은 전략적으로 사고하고, 결단력 있게 행동하며, 진정으로 의미 있는 솔루션을 만드는 법을 가르쳐주었습니다.",
+    "bio": "AI 서비스 구조 설계부터 데이터 전처리, 프롬프트 엔지니어링까지 전 과정을 직접 경험하며 자연어와 데이터베이스 사이의 간극을 메워 왔습니다. 문제 정의-구조화-실험-실행의 사이클로 PoC를 완성하고 현장에 적용 가능한 로드맵을 제시합니다.",
     "social": {
-      "github": "https://github.com/yourusername",
-      "linkedin": "https://linkedin.com/in/yourprofile",
-      "blog": "https://yourblog.com"
+      "portfolio": "https://www.notion.so/163edc0c22cf4a90b4ecdca2f916ee82",
+      "github": "https://github.com/YONU-LEEHYUNWOO"
     }
   },
   "kpis": [
     {
-      "value": "20%",
-      "label": "고객 재방문율 증가",
-      "description": "전략적 카페 운영을 통해"
+      "value": "Top-K",
+      "label": "의미 기반 검색 정량 검증",
+      "description": "Hit@K, nDCG 지표로 RAG 파이프라인 성능 평가"
     },
     {
-      "value": "$10K",
-      "label": "월간 온라인 매출",
-      "description": "제로부터 구축"
+      "value": "3s",
+      "label": "응답 속도",
+      "description": "Gemini 기반 파이프라인 전환으로 평균 3초 내 응답 확보"
     },
     {
-      "value": "3+",
-      "label": "년 경력",
-      "description": "다양한 산업 분야"
+      "value": "96.8%",
+      "label": "데이터 보존율",
+      "description": "가격 하락 품목 파이프라인 전처리 및 보정 전략 수립"
     }
   ],
   "experience": [
     {
-      "company": "테크 스타트업",
-      "position": "서비스 기획자",
-      "period": "2023.03 - 현재",
+      "company": "패스트캠퍼스 AI 기획/개발 부트캠프 18기",
+      "position": "AI 서비스 기획자",
+      "period": "2025.09 - 재직중",
       "responsibilities": [
-        "AI 기반 솔루션의 제품 전략 및 로드맵 기획 주도",
-        "일정에 맞춰 기능을 제공하기 위한 크로스 펑셔널 팀 조율",
-        "사용자 리서치를 수행하고 인사이트를 실행 가능한 요구사항으로 전환"
+        "AI 서비스 구조 설계와 기획 산출물 작성",
+        "SBERT 기반 의미 검색 및 RAG 추천 시스템 설계",
+        "모델 성능 비교 실험과 PoC 지표 설계"
       ]
     },
     {
-      "company": "이커머스 플랫폼",
-      "position": "운영 매니저",
-      "period": "2022.01 - 2023.02",
+      "company": "이디알베이커리카페",
+      "position": "매니저 · 바리스타",
+      "period": "2024.10 - 2025.06",
       "responsibilities": [
-        "월 $10K를 창출하는 온라인 스토어의 엔드투엔드 운영 관리",
-        "재고 및 물류 프로세스 최적화",
-        "데이터 기반 마케팅 전략 수립 및 실행"
+        "판매, 고객 응대 및 직원 스케줄 관리",
+        "재고 관리와 발주 프로세스 최적화",
+        "매장 운영 KPI 모니터링"
       ]
     },
     {
-      "company": "로컬 카페",
-      "position": "대표 & 매니저",
-      "period": "2020.06 - 2021.12",
+      "company": "메이크미노드",
+      "position": "사장 · 바리스타",
+      "period": "2021.07 - 2023.11",
       "responsibilities": [
-        "개인화된 서비스를 통해 고객 재방문율 20% 증가",
-        "일일 운영, 직원 관리 및 재무 관리",
-        "이벤트와 소셜 미디어를 통한 커뮤니티 구축"
+        "매장 총괄 운영과 인테리어, 이벤트 기획",
+        "신메뉴 개발 및 고객 경험 개선",
+        "매출 구조 최적화와 리텐션 향상"
+      ]
+    },
+    {
+      "company": "광명철산점 빽다방",
+      "position": "사원 · 바리스타",
+      "period": "2020.01 - 2020.09",
+      "responsibilities": [
+        "파트타임 고객 응대 및 음료 제조",
+        "재고 및 위생 관리 지원"
+      ]
+    },
+    {
+      "company": "브라더스&데일리비어",
+      "position": "사원/매니저",
+      "period": "2018.10 - 2019.07",
+      "responsibilities": [
+        "판매 및 고객 응대, 재고 관리",
+        "신메뉴 출시와 매출 증대 이벤트 운영"
+      ]
+    },
+    {
+      "company": "롯데 광명 프리미엄아울렛 까미나따",
+      "position": "매니저 · 매장관리",
+      "period": "2017.09 - 2018.07",
+      "responsibilities": [
+        "명품관 판매 및 고객 응대",
+        "재고, 발주, 직원 스케줄 관리"
+      ]
+    },
+    {
+      "company": "밴드 '태평양'",
+      "position": "음반 기획 · 일렉기타",
+      "period": "2017.01 - 2020.01",
+      "responsibilities": [
+        "앨범 전체 기획 및 녹음 참여",
+        "유통사 협업과 프로모션 진행",
+        "라디오·공연 출연을 통한 팬 커뮤니케이션"
       ]
     }
   ],
   "skills": {
-    "프론트엔드": [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "HTML/CSS"
-    ],
-    "백엔드": [
-      "Node.js",
-      "Express",
+    "AI & 데이터": [
+      "AI/인공지능",
+      "프롬프트 엔지니어링",
       "Python",
-      "REST APIs"
+      "SQLite"
     ],
-    "데이터베이스": [
-      "PostgreSQL",
-      "MongoDB",
-      "Firebase"
+    "기획 & 도구": [
+      "서비스 구조 설계",
+      "UI/UX",
+      "FigJam",
+      "Notion"
     ],
-    "도구": [
-      "Git",
-      "Figma",
-      "Notion",
-      "Jira",
-      "Slack"
+    "생성형 디자인": [
+      "Midjourney"
     ],
-    "기획": [
-      "사용자 리서치",
-      "요구사항 분석",
-      "Agile/Scrum",
-      "데이터 분석"
+    "개발": [
+      "Node.js"
     ]
   },
   "projects": [
     {
-      "id": "project-1",
-      "title": "AI 가격 비교 플랫폼",
-      "description": "AI 기반 매칭을 활용하여 여러 온라인 쇼핑몰에서 최저가를 찾아주는 종합 플랫폼입니다.",
-      "longDescription": "해커톤에서 개발된 이 플랫폼은 머신러닝을 활용하여 이름이나 설명이 다르더라도 여러 이커머스 사이트에서 동일한 제품을 식별합니다. 시스템은 매일 수천 개의 제품 리스팅을 처리하고 사용자에게 실시간 가격 비교를 제공합니다.",
+      "id": "project-ai-fashion",
+      "title": "AI 패션 컨시어지",
+      "description": "SBERT 기반 의미 검색과 Gemini 응답 생성을 결합한 패션 추천 RAG 파이프라인",
+      "longDescription": "기존 키워드 검색의 한계를 정의하고 SBERT 벡터 검색 + Gemini Flash 조합으로 의미 기반 추천 구조를 설계했습니다. 619건의 Amazon 패션 리뷰를 정제해 벡터 DB를 구축하고, 한국어 질의를 DeepL로 번역해 Top-K 검색 정확도를 높였습니다. 로컬 LLM과 API 모델을 비교해 속도·비용·안정성을 검증하고 응답 속도를 3초 내로 단축했습니다.",
       "image": "/placeholder.svg",
       "tags": [
-        "AI",
-        "가격비교",
-        "웹앱"
+        "RAG",
+        "패션",
+        "추천"
       ],
       "techStack": [
-        "Next.js",
-        "TypeScript",
+        "SBERT",
+        "Gemini Flash",
+        "DeepL",
+        "Streamlit"
+      ],
+      "myRole": "서비스 구조 설계, 데이터 정제, 의미 기반 검색 기획, 성능 지표 설계 및 PoC 리포트 제작",
+      "results": "Hit@K, nDCG 정량 지표로 의미 검색 유효성 검증, 평균 응답 3초 이내 확보",
+      "links": {
+        "report": "https://www.notion.so/163edc0c22cf4a90b4ecdca2f916ee82"
+      }
+    },
+    {
+      "id": "project-price-recipe",
+      "title": "가격 하락 품목 레시피 추천",
+      "description": "실시간 농수산물 가격과 식약처 레시피 API를 결합한 데이터 엔지니어링 프로젝트",
+      "longDescription": "KAMIS API로 수집한 190개 품목 데이터를 정제하고, 결측·단위 불일치 문제를 해결해 데이터 보존율 96.8%를 달성했습니다. 가격 점수 알고리즘을 설계해 하락 품목을 선별하고 식약처 레시피 API 연결로 추천 결과를 Streamlit UI에 시각화했습니다. 병렬 처리와 캐싱으로 응답 시간을 0.1초 수준까지 최적화했습니다.",
+      "image": "/placeholder.svg",
+      "tags": [
+        "데이터엔지니어링",
+        "레시피",
+        "실시간API"
+      ],
+      "techStack": [
         "Python",
-        "TensorFlow",
-        "PostgreSQL"
+        "Streamlit",
+        "KAMIS API",
+        "식약처 레시피 API"
       ],
-      "myRole": "서비스 기획과 컨셉 디자인을 주도했습니다. 사용자 플로우를 설계하고 개발팀과 협력하여 AI 매칭 알고리즘을 구현했습니다.",
-      "results": "해커톤 대회에서 1등을 수상했습니다. AI의 혁신적인 활용과 뛰어난 사용자 경험으로 심사위원들로부터 긍정적인 피드백을 받았습니다.",
-      "links": {
-        "github": "https://github.com/yourusername/project",
-        "demo": "https://demo.example.com",
-        "blog": "https://yourblog.com/project-post"
-      }
+      "myRole": "데이터 파이프라인 구축, 전처리 로직 설계, 가격 점수 알고리즘 개발, UI 프로토타이핑",
+      "results": "API 데이터 품질 확보와 응답 시간 0.1초 이내 구현으로 실시간 추천 경험 제공"
     },
     {
-      "id": "project-2",
-      "title": "커뮤니티 대시보드",
-      "description": "커뮤니티 매니저가 참여 지표와 사용자 활동을 추적할 수 있는 실시간 대시보드입니다.",
-      "longDescription": "분산된 커뮤니티 데이터의 문제를 해결하기 위해 구축된 이 대시보드는 여러 소스의 정보를 집계하여 직관적이고 실행 가능한 형식으로 제공합니다. 실시간 알림, 맞춤형 리포트 생성, 예측 분석 기능이 포함되어 있습니다.",
+      "id": "project-musinsa-roadmap",
+      "title": "무신사 패션 컨시어지 고도화 기획",
+      "description": "사용자 문제 정의와 AI 적용 전략을 기반으로 한 단계별 로드맵 수립",
+      "longDescription": "무신사 사용자 여정을 분석해 이미지 검색·추천·가상 피팅 기능을 통합하는 방향을 제시했습니다. 경쟁 사례 조사와 사용자 시나리오를 바탕으로 MVP에서 3D 피팅 통합 단계까지 이어지는 로드맵을 기획하고, 기술 한계와 비즈니스 목표를 균형 있게 반영했습니다.",
       "image": "/placeholder.svg",
       "tags": [
-        "대시보드",
-        "분석",
-        "커뮤니티"
+        "서비스기획",
+        "패션",
+        "로드맵"
       ],
       "techStack": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Chart.js",
-        "WebSocket"
+        "Notion",
+        "FigJam",
+        "Midjourney"
       ],
-      "myRole": "전체 서비스 아키텍처와 기능을 기획했습니다. 커뮤니티 매니저와의 사용자 인터뷰를 통해 핵심 지표를 파악하고 대시보드 레이아웃을 설계했습니다.",
-      "results": "파일럿 사용자의 리포팅 시간을 60% 단축했습니다. 총 5000명 이상의 회원을 가진 3개 커뮤니티에 성공적으로 배포했습니다.",
-      "links": {
-        "github": "https://github.com/yourusername/dashboard",
-        "demo": "https://dashboard.example.com"
-      }
+      "myRole": "사용자 문제 정의, 경쟁 분석, AI 적용 전략 수립, 고도화 로드맵 작성",
+      "results": "기능 중심 대신 사용자 경험 중심의 AI 서비스 시나리오 정립"
     }
   ],
-  "awards": [
-    {
-      "title": "1등상 - AI 해커톤 2023",
-      "date": "2023.11",
-      "organization": "기술혁신재단",
-      "description": "혁신적인 AI 가격 비교 플랫폼으로 수상"
-    },
-    {
-      "title": "서비스 우수상",
-      "date": "2022.08",
-      "organization": "이커머스 협회",
-      "description": "뛰어난 고객 서비스와 운영 효율성을 인정받아 수상"
-    }
-  ],
+  "awards": [],
   "certifications": [
     {
-      "title": "구글 데이터 분석 전문가 자격증",
-      "date": "2023.05",
-      "organization": "Google / Coursera",
-      "description": "데이터 분석, 시각화 및 비즈니스 인텔리전스 종합 교육 수료"
+      "title": "SNS마케팅전문가 1급",
+      "date": "2025.07",
+      "organization": "한국직업능력진흥원",
+      "description": "SNS 채널 전략 및 캠페인 기획 전문 자격 취득"
     },
     {
-      "title": "Certified Scrum Product Owner (CSPO)",
-      "date": "2023.02",
-      "organization": "Scrum Alliance",
-      "description": "애자일 제품 오너십 및 이해관계자 관리 전문 자격증"
+      "title": "프롬프트엔지니어 1급",
+      "date": "2025.08",
+      "organization": "한국엔씨에스자격개발원",
+      "description": "생성형 AI 프롬프트 설계 및 품질 관리 역량 검증"
+    },
+    {
+      "title": "ITQ 정보기술자격",
+      "date": "2018.03",
+      "organization": "한국생산성본부",
+      "description": "국가공인 ITQ 자격 최종 합격"
     }
   ],
   "education": [
     {
-      "title": "풀스택 개발 부트캠프",
-      "date": "2022.06 - 2022.12",
-      "organization": "코드 아카데미",
-      "description": "현대 웹 개발 기술을 다루는 집중 6개월 프로그램"
+      "title": "추계예술대학교 실용음악과 (휴학)",
+      "date": "2-3년제 · 서울",
+      "organization": "추계예술대학교",
+      "description": "실용음악 전공, 현재 휴학 중"
     }
   ]
 }
