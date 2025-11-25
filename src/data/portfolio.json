@@ -123,7 +123,7 @@
       "myRole": "사용자 문제 정의, 경쟁 분석, AI 적용 전략 수립, 고도화 로드맵 작성",
       "results": "기능 중심 대신 사용자 경험 중심의 AI 서비스 시나리오 정립",
       "links": {
-        "demo": "https://thin-pamphlet-4ce.notion.site/29c0490b168680189f85c92be07907a2?pvs=74"
+        "link": "https://thin-pamphlet-4ce.notion.site/29c0490b168680189f85c92be07907a2?pvs=74"
       }
     },
     {
@@ -146,7 +146,7 @@
       "myRole": "데이터 파이프라인 구축, 전처리 로직 설계, 가격 점수 알고리즘 개발, UI 프로토타이핑",
       "results": "API 데이터 품질 확보와 응답 시간 0.1초 이내 구현으로 실시간 추천 경험 제공",
       "links": {
-        "demo": "https://thin-pamphlet-4ce.notion.site/2ae0490b1686801e85a4c061d9903a7f?pvs=74"
+        "link": "https://thin-pamphlet-4ce.notion.site/2ae0490b1686801e85a4c061d9903a7f?pvs=74"
       }
     },
     {
@@ -169,7 +169,29 @@
       "myRole": "서비스 구조 설계, 데이터 정제, 의미 기반 검색 기획, 성능 지표 설계 및 PoC 리포트 제작",
       "results": "Hit@K, nDCG 정량 지표로 의미 검색 유효성 검증, 평균 응답 3초 이내 확보",
       "links": {
-        "demo": "https://thin-pamphlet-4ce.notion.site/AI-29e0490b168680489c10ce15e270479d?pvs=74"
+        "link": "https://thin-pamphlet-4ce.notion.site/AI-29e0490b168680489c10ce15e270479d?pvs=74"
+      }
+    },
+    {
+      "id": "project-ai-wedding",
+      "title": "AI 청첩장 생성 서비스 기획 및 개발",
+      "description": "사용자 입력을 기반으로 AI가 자동으로 청첩장 시안을 생성하는 프로토타입",
+      "longDescription": "사용자의 사연, 이미지 등 비정형 데이터를 입력받아 AI가 청첩장 시안을 자동으로 생성하는 프로토타입을 기획했습니다. Google AI Studio를 기반으로 텍스트 분석과 이미지 생성을 결합한 구조를 설계해 추상적인 입력을 시각 디자인으로 전환하는 과정을 자동화했고, 생성된 템플릿 조합으로 다양한 스타일을 제안했습니다. 또한 사용자 선택·디자인 편집 흐름을 UX로 정리하고, 음악 생성형 AI와 결합해 멀티미디어 청첩장으로 확장하는 방향을 도출했습니다.",
+      "image": "/placeholder.svg",
+      "tags": [
+        "생성형AI",
+        "UX",
+        "프로토타입"
+      ],
+      "techStack": [
+        "Google AI Studio",
+        "Prompt Engineering",
+        "Notion"
+      ],
+      "myRole": "UX 플로우 설계, 사용자 입력 기반 생성형 AI 구조 설계, 프로토타입 기획 및 산출물 구성",
+      "results": "비정형 입력을 시각 디자인으로 자동 변환하는 생성형 AI 청첩장 기획안 완성 및 확장 시나리오 제시",
+      "links": {
+        "link": "https://thin-pamphlet-4ce.notion.site/Google-ai-studio-29e0490b168680e78bd6d665f3d2f939?pvs=74"
       }
     }
   ],

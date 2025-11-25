@@ -19,6 +19,7 @@ interface Project {
     github?: string;
     demo?: string;
     blog?: string;
+    link?: string;
   };
 }
 
@@ -152,13 +153,18 @@ export const Projects = ({ data }: ProjectsProps) => {
                           코드 보기
                         </Button>
                       )}
-                      {selectedProject.links.demo && (
+                      {(selectedProject.links.link || selectedProject.links.demo) && (
                         <Button
                           className="gradient-hero text-white"
-                          onClick={() => window.open(selectedProject.links.demo, "_blank")}
+                          onClick={() =>
+                            window.open(
+                              selectedProject.links.link || selectedProject.links.demo,
+                              "_blank"
+                            )
+                          }
                         >
                           <ExternalLink className="mr-2 h-4 w-4" />
-                          라이브 데모
+                          관련 링크
                         </Button>
                       )}
                       {selectedProject.links.blog && (

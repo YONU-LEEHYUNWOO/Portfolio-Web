@@ -1,5 +1,6 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Github, LinkIcon } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 interface AboutProps {
   data: {
@@ -9,6 +10,10 @@ interface AboutProps {
     email: string;
     phone: string;
     location: string;
+    social?: {
+      github?: string;
+      portfolio?: string;
+    };
   };
   kpis: Array<{
     value: string;
@@ -38,6 +43,30 @@ export const About = ({ data, kpis }: AboutProps) => {
               {data.bio}
             </p>
           </Card>
+
+          {data.social && (
+            <div className="flex flex-wrap justify-center gap-4">
+              {data.social.github && (
+                <Button
+                  variant="outline"
+                  className="border-primary/50 hover:bg-primary/10 transition-smooth"
+                  onClick={() => window.open(data.social.github, "_blank")}
+                >
+                  <Github className="mr-2 h-4 w-4" />
+                  GitHub
+                </Button>
+              )}
+              {data.social.portfolio && (
+                <Button
+                  className="gradient-hero text-white shadow-glow hover:scale-105 transition-smooth"
+                  onClick={() => window.open(data.social.portfolio, "_blank")}
+                >
+                  <LinkIcon className="mr-2 h-4 w-4" />
+                  Notion Portfolio
+                </Button>
+              )}
+            </div>
+          )}
 
           {/* KPI Highlights */}
           {kpis.length > 0 && (
